@@ -6,6 +6,11 @@
 
 body{
     font-family: 'Righteous', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #C7CDD3;
 }
 
 .card{
@@ -67,3 +72,10 @@ body{
     margin-top: 10px;
 }
 
+/* Tabuleiro */
+#gameBoard{
+    max-width: 700px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
